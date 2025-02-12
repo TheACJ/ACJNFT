@@ -9,8 +9,8 @@ Overview
 **This project provides a set of tools for creating and managing NFTs on the Solana blockchain. It includes three main scripts:**
 
 - create-collection.ts: Creates a new NFT collection.
-- create-nft.ts: Creates individual NFTs within a collection.
-- verify-nft.ts: Verifies that an NFT is part of a specific collection.
+- create-nft.ts: Creates individual NFTs within the collection.
+- verify-nft.ts: Verifies that an NFT is part of the collection.
 
 **Dependencies**
 
@@ -38,9 +38,9 @@ esrun create-nft.ts
 
 **Verify an NFT:**
 
-bash
+```bash
 esrun verify-nft.ts
-
+```
 
 **Contributing**
 
